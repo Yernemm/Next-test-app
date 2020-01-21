@@ -1,5 +1,14 @@
+import Link from 'next/link';
+import Layout from '../components/MyLayout';
+
+
 export default () => (
-    <div>
+    <Layout>
         <h1>About here</h1>
-    </div>
+        <Link href="/">
+    <a title="About Page">About Page</a>
+        </Link>
+
+   
+    </Layout>
 )
